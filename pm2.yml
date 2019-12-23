@@ -1,0 +1,5 @@
+apps:
+   - script    : index.js
+     name      : 'api-app'
+     instances : 'max'
+     exec_mode : 'cluster'
